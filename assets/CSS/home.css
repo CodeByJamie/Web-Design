@@ -1,0 +1,18 @@
+:root {
+	--bg-color: #343635;
+	--bg-accent: #404040;
+	--color-one: #605aa0;
+	--accent-one: #8c80c2;
+	--color-two: #c6a9e1;
+	--accent-two: #e1ebe2;
+}
+
+body {
+	background-color: var(--bg-color);
+}
+
+.sidebar {
+	background: linear-gradient(0deg, var(--color-one), var(--accent-one));
+	width: 30vw;
+	height: 100vh;
+}
